@@ -4,7 +4,8 @@ import (
 	"github.com/Aseer13/GoSysMon/system"
 )
 
-func main() {
-	system.GetCpu()
-}
 
+
+func main() {
+	system.CollectHost()
+}
